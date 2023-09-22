@@ -94,4 +94,5 @@ cd selenium-parabank-tests
 }
 ]
 
+Json are added on the Fixtures file, remember to update the accounts to the new ones created.
 Make sure to update the JSON file and test suite/class as needed for your specific test cases.
