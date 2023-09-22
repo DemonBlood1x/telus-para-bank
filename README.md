@@ -69,7 +69,7 @@ cd selenium-parabank-tests
 
 6. Execute the tests using TestNG.
 
-7. Review the test results and reports.
+7. Review the test results.
 
 ## Example JSON Input File (testCases.json)
 ```json
