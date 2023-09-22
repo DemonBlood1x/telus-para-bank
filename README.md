@@ -1,7 +1,46 @@
-# Selenium Test Automation Project README
+# Automated Testing README
 
-## Overview
-This repository contains a Selenium test automation project using Java and TestNG to test the functionality of the ParaBank website. The project includes test cases for the following scenarios:
+This document provides instructions for automated testing using Java, Selenium, and TestNG for the given test cases.
+
+## Test Matrix
+
+Here is a test matrix with test case numbers and their corresponding descriptions:
+
+| Test Case Number | Description             |
+| -----------------|-------------------------|
+| 1                | Register                |
+| 2                | Open a New Account      |
+| 3                | Transfer Funds          |
+
+## Test Cases
+
+### 1. Register
+
+#### Description
+- Register a new account.
+- Select the default account to debit the new funds.
+- Verify the success message.
+- Get the new account number.
+- Navigate to 'Accounts Overview' and confirm that the new account is present on the list.
+- Verify if the available amount matches with $100.
+
+### 2. Open a New Account
+
+#### Description
+- Open a new account.
+- Select the default account to debit the new funds.
+- Verify the success message.
+- Get the new account number.
+- Navigate to 'Accounts Overview' and confirm that the new account is present on the list.
+- Verify if the available amount matches with $100.
+
+### 3. Transfer Funds
+
+#### Description
+- Parameterized test case with JSON input.
+- Transfer funds between accounts.
+- Verify the success message.
+- Navigate to 'Accounts Overview' and check the new balance for both accounts.
 
 ## Prerequisites
 Before running the tests, make sure you have the following prerequisites installed:
