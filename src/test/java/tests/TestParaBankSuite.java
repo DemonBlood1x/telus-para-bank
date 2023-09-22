@@ -64,7 +64,7 @@ public class TestParaBankSuite {
 
         // Make sure the new account number matches the one created
         Assert.assertEquals(accountNumberFromOverview, newAccNumber);
-        // Add an assertion for available amount if ExpectedValues.AMOUNT is provided
+        // Assertion for available amount if ExpectedValues.AMOUNT is provided
         Assert.assertEquals(availableAmount, ExpectedValues.AMOUNT);
     }
 
