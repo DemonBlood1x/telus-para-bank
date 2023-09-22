@@ -76,6 +76,7 @@ public class RegisterPage {
         selectors.add(password);
         selectors.add(confirm);
 
+        /* Magic data over here */
         List<String> data = new ArrayList<>();
         data.add("Test Efra");
         data.add("Last Name Test");
