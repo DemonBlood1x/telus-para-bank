@@ -1,0 +1,22 @@
+{
+  "testCases": [
+    {
+      "testCaseNumber": "1",
+      "amount": "100",
+      "debitAccount": "12345",
+      "creditAccount": "67890"
+    },
+    {
+      "testCaseNumber": "2",
+      "amount": "200",
+      "debitAccount": "54321",
+      "creditAccount": "98765"
+    },
+    {
+      "testCaseNumber": "3",
+      "amount": "50",
+      "debitAccount": "11111",
+      "creditAccount": "22222"
+    }
+  ]
+}
